@@ -1,0 +1,11 @@
+/*
+Created By:  Peter Maynard <pete@port22.co.uk>
+Created On:  2020 May 27th
+Description: Linux Application Firewall
+License:     BSD-3-Clause
+*/
+
+int kprobe__sys_connect(void *ctx) {
+	bpf_trace_printk("[Connect]\n");
+	return 0; 
+}
