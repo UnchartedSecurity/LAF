@@ -11,4 +11,4 @@ No versions are supported with security updates. Once we reach version 1.0.0 we 
 
 ## Reporting a Vulnerability
 
-Contact <p.maynard@unchartedsecurity.com> with an security vulnerabilities you might have found.
+Contact <p.maynard@unchartedsecurity.com> with any security vulnerabilities you might have found.
